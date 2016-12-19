@@ -73,9 +73,9 @@ class Login extends Component {
 
                                         <Button  block danger style={styles.logoBtn} textStyle={{color: '#fff'}} onPress={()=>this.userLoginPress()} >登入</Button>
                                     </View>
-                                    <Grid style="gd">
-                                    <Col></Col>
-                                   <Col><Text onPress={()=>this.ForgetPress()}>忘记密码?</Text></Col>
+                                    <Grid >
+                                    <Col><Text onPress={()=>this.ForgetPress()}>忘记密码?</Text></Col>
+                                   <Col></Col>
                                         </Grid>
                                 </View>
                 </Content>
