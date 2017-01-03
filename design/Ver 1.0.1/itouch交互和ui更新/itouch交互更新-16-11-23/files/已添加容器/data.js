@@ -1,0 +1,129 @@
+﻿$axure.loadCurrentPage({
+  "url":"已添加容器.html",
+  "generationDate":new Date(1479886957046.96),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"ae3cc996bbaa487ba2aeee55864c5ad9",
+    "type":"Axure:Page",
+    "name":"已添加容器",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"d05a9b8782824126b2e19c199be2763a",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":569}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ab3db85984544b1387732e8fc6e9d335",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":569}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/已添加容器/u0.png"}},
+{
+          "id":"b3fc2288ce9e4e269990d5b48cde26d1",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":247,
+              "y":22},
+            "size":{
+              "width":70,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 发货清单",
+                      "target":{
+                        "targetType":"page",
+                        "url":"发货清单.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"d115c52abd194c6aab961dcb495bb5fc",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":509},
+            "size":{
+              "width":300,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 选择标记不装箱物料",
+                      "target":{
+                        "targetType":"page",
+                        "url":"选择标记不装箱物料.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "d05a9b8782824126b2e19c199be2763a":{
+      "scriptId":"u0"},
+    "ab3db85984544b1387732e8fc6e9d335":{
+      "scriptId":"u1"},
+    "b3fc2288ce9e4e269990d5b48cde26d1":{
+      "scriptId":"u2"},
+    "d115c52abd194c6aab961dcb495bb5fc":{
+      "scriptId":"u3"}}});

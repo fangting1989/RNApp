@@ -1,0 +1,129 @@
+﻿$axure.loadCurrentPage({
+  "url":"计件物料扫码拣货.html",
+  "generationDate":new Date(1479886956826.75),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"555c32e410bd4e3e82b2e56607ded499",
+    "type":"Axure:Page",
+    "name":"计件物料扫码拣货",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"7bec122e22674a938718612c8a918089",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"eb4263acf086475da1923bbd4737a10d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/计件物料扫码拣货/u0.png"}},
+{
+          "id":"ad4e382c5d324c6d934ccbd920691059",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":109},
+            "size":{
+              "width":301,
+              "height":110}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 计量物料扫码拣货",
+                      "target":{
+                        "targetType":"page",
+                        "url":"计量物料扫码拣货.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"ebfe66d3cdf44f608323c8702c2f02c4",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":247,
+              "y":16},
+            "size":{
+              "width":70,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 已拣物料列表",
+                      "target":{
+                        "targetType":"page",
+                        "url":"已拣物料列表.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "7bec122e22674a938718612c8a918089":{
+      "scriptId":"u0"},
+    "eb4263acf086475da1923bbd4737a10d":{
+      "scriptId":"u1"},
+    "ad4e382c5d324c6d934ccbd920691059":{
+      "scriptId":"u2"},
+    "ebfe66d3cdf44f608323c8702c2f02c4":{
+      "scriptId":"u3"}}});

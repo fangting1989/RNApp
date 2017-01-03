@@ -1,0 +1,97 @@
+﻿$axure.loadCurrentPage({
+  "url":"添加备注.html",
+  "generationDate":new Date(1481113302659.43),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"55ecbb6c64f44b14896f019c458acfcf",
+    "type":"Axure:Page",
+    "name":"添加备注",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"8689db2f1afa4eed9b4be23051f71d88",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1920,
+              "height":1080}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5836ad6b649d47468293ac7b0b7b1ec2",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1920,
+                  "height":1080}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/添加备注/u0.png"}},
+{
+          "id":"d48610556fc74bf78d149cbb4d2eaa7a",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":830,
+              "y":650},
+            "size":{
+              "width":260,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 查询物料盘点记录",
+                      "target":{
+                        "targetType":"page",
+                        "url":"查询物料盘点记录.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "8689db2f1afa4eed9b4be23051f71d88":{
+      "scriptId":"u0"},
+    "5836ad6b649d47468293ac7b0b7b1ec2":{
+      "scriptId":"u1"},
+    "d48610556fc74bf78d149cbb4d2eaa7a":{
+      "scriptId":"u2"}}});

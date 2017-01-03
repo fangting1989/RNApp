@@ -1,0 +1,129 @@
+﻿$axure.loadCurrentPage({
+  "url":"出库.html",
+  "generationDate":new Date(1479886956654.58),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"04eff59524ee47108621b4b1b284e593",
+    "type":"Axure:Page",
+    "name":"出库",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"15ea532ea1ae4e559db509dfd25f2395",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":319,
+              "height":535}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"348b983890ee44ccab0f796ec4cdd23c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":319,
+                  "height":535}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/出库/u0.png"}},
+{
+          "id":"eb09875eb4fb480fb7f127d5fcaa93cd",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":80},
+            "size":{
+              "width":300,
+              "height":390}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 分拣库区列表",
+                      "target":{
+                        "targetType":"page",
+                        "url":"分拣库区列表.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"85644242d41d401aafdaab5ea86e76a1",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":22},
+            "size":{
+              "width":80,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 登录后入口页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"登录后入口页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "15ea532ea1ae4e559db509dfd25f2395":{
+      "scriptId":"u0"},
+    "348b983890ee44ccab0f796ec4cdd23c":{
+      "scriptId":"u1"},
+    "eb09875eb4fb480fb7f127d5fcaa93cd":{
+      "scriptId":"u2"},
+    "85644242d41d401aafdaab5ea86e76a1":{
+      "scriptId":"u3"}}});

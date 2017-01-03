@@ -1,0 +1,129 @@
+﻿$axure.loadCurrentPage({
+  "url":"修改签收数量.html",
+  "generationDate":new Date(1479886956036.8),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"d2d8908c8e4e42b1bd944dfaf4aef536",
+    "type":"Axure:Page",
+    "name":"修改签收数量",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"bda76f498581445ea44e56776bdcfdc4",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":319,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"663be32ffcce425b87e7d6c9b6e48e7c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":319,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/修改签收数量/u0.png"}},
+{
+          "id":"36fa609705f34ba0806d5e1e6541669c",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":90,
+              "y":259},
+            "size":{
+              "width":140,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 货单物料列表",
+                      "target":{
+                        "targetType":"page",
+                        "url":"货单物料列表.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"ec87a5e97ce6456b9b74cbcf463ec15c",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":280,
+              "y":50},
+            "size":{
+              "width":39,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 货单物料列表",
+                      "target":{
+                        "targetType":"page",
+                        "url":"货单物料列表.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "bda76f498581445ea44e56776bdcfdc4":{
+      "scriptId":"u0"},
+    "663be32ffcce425b87e7d6c9b6e48e7c":{
+      "scriptId":"u1"},
+    "36fa609705f34ba0806d5e1e6541669c":{
+      "scriptId":"u2"},
+    "ec87a5e97ce6456b9b74cbcf463ec15c":{
+      "scriptId":"u3"}}});

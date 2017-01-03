@@ -1,0 +1,97 @@
+﻿$axure.loadCurrentPage({
+  "url":"盘点结果保存_1.html",
+  "generationDate":new Date(1479461008295.84),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"9390aeed637a420f953c958e15c28b6d",
+    "type":"Axure:Page",
+    "name":"盘点结果保存",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"3cfb1991bc744939b4aa86a57e737cfe",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1024,
+              "height":766}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"495bed5e3feb48a1a828d4c847257e8d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1024,
+                  "height":766}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/盘点结果保存/u0.jpg"}},
+{
+          "id":"8d8b892d89ea41ceb3e482dd48c0cd88",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":380,
+              "y":460},
+            "size":{
+              "width":130,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 盘点首页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"盘点首页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "3cfb1991bc744939b4aa86a57e737cfe":{
+      "scriptId":"u0"},
+    "495bed5e3feb48a1a828d4c847257e8d":{
+      "scriptId":"u1"},
+    "8d8b892d89ea41ceb3e482dd48c0cd88":{
+      "scriptId":"u2"}}});

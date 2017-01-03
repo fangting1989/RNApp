@@ -1,0 +1,65 @@
+﻿$axure.loadCurrentPage({
+  "url":"手机盘点.html",
+  "generationDate":new Date(1482148485058.9),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"de7dc85907c64836b50422df58a69127",
+    "type":"Axure:Page",
+    "name":"手机盘点",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"5f54b365230e4af68ff99e036d05c947",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"1b20459b559e44a7a49f5fd0af8eb6fa",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/手机盘点/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "5f54b365230e4af68ff99e036d05c947":{
+      "scriptId":"u0"},
+    "1b20459b559e44a7a49f5fd0af8eb6fa":{
+      "scriptId":"u1"}}});

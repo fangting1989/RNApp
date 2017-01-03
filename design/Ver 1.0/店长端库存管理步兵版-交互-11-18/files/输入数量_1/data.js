@@ -1,0 +1,97 @@
+﻿$axure.loadCurrentPage({
+  "url":"输入数量_1.html",
+  "generationDate":new Date(1479461008082.64),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"a52b4c19632e4e9194eae92573a21487",
+    "type":"Axure:Page",
+    "name":"输入数量",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"11c207ab5f2f4152b6d2fbc739bcce6e",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1025,
+              "height":768}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"15035f2d503f43e997ac1fd2f8dda129",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1025,
+                  "height":768}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/输入数量_1/u0.png"}},
+{
+          "id":"42fe1f7c616d4cf0b528c979111beed2",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":890,
+              "y":700},
+            "size":{
+              "width":135,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 盘点列表（重点、动碰、全盘）",
+                      "target":{
+                        "targetType":"page",
+                        "url":"盘点列表（重点、动碰、全盘）.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "11c207ab5f2f4152b6d2fbc739bcce6e":{
+      "scriptId":"u0"},
+    "15035f2d503f43e997ac1fd2f8dda129":{
+      "scriptId":"u1"},
+    "42fe1f7c616d4cf0b528c979111beed2":{
+      "scriptId":"u2"}}});

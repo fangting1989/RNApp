@@ -1,0 +1,287 @@
+﻿$axure.loadCurrentPage({
+  "url":"关联计件物料.html",
+  "generationDate":new Date(1479886956225.48),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"c89049cfd10f44d1bb18895c385b4438",
+    "type":"Axure:Page",
+    "name":"关联计件物料",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"b2c36bb6154c42619255bc1b33f7c530",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":319,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3ea5ddd9a78d4de69b11facdb89eb827",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":319,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/关联计件物料/u0.png"}},
+{
+          "id":"bfd96ff748634720809342eb35589754",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":46,
+              "y":280},
+            "size":{
+              "width":200,
+              "height":100},
+            "borderWidth":"-1",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"83ac9598dc3445caa7349bedf4545132",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":46,
+                  "y":280},
+                "size":{
+                  "width":200,
+                  "height":100},
+                "borderWidth":"-1",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/关联计件物料/u2.png"}},
+{
+          "id":"232a976f3368443dba9ef3a596ae0e7d",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Adobe 黑体 Std R', 'Adobe 黑体 Std'",
+            "fontSize":"15px",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0000,
+              "opacity":1},
+            "location":{
+              "x":55,
+              "y":280},
+            "size":{
+              "width":121,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"7a782a0189294ef9a3c7d9a32d449e0e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Adobe 黑体 Std R', 'Adobe 黑体 Std'",
+                "fontSize":"15px",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0000,
+                  "opacity":1},
+                "location":{
+                  "x":55,
+                  "y":280},
+                "size":{
+                  "width":121,
+                  "height":30}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"2a8dbd73cf204128a21f8b4502c35069",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFD0021B},
+            "location":{
+              "x":100,
+              "y":520},
+            "size":{
+              "width":110,
+              "height":30},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5f9cc0b55ed345feb2dfc6d320db9e74",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFD0021B},
+                "location":{
+                  "x":100,
+                  "y":520},
+                "size":{
+                  "width":110,
+                  "height":30},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/关联计件物料/u6.png"}},
+{
+          "id":"d73fb8446efe45ac8d84a29ac436b851",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Negreta', 'Arial'",
+            "fontSize":"14px",
+            "fontWeight":"700",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFFFFFF,
+              "opacity":1},
+            "location":{
+              "x":145,
+              "y":524},
+            "size":{
+              "width":29,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"57c0b26e493e40b9853b9b0845acd3b8",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Negreta', 'Arial'",
+                "fontSize":"14px",
+                "fontWeight":"700",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "location":{
+                  "x":145,
+                  "y":524},
+                "size":{
+                  "width":29,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"6ace3ccb905543c089b331f71faedebf",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":9.5,
+              "y":507},
+            "size":{
+              "width":300,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 扫码并关联物料",
+                      "target":{
+                        "targetType":"page",
+                        "url":"扫码并关联物料.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "b2c36bb6154c42619255bc1b33f7c530":{
+      "scriptId":"u0"},
+    "3ea5ddd9a78d4de69b11facdb89eb827":{
+      "scriptId":"u1"},
+    "bfd96ff748634720809342eb35589754":{
+      "scriptId":"u2"},
+    "83ac9598dc3445caa7349bedf4545132":{
+      "scriptId":"u3"},
+    "232a976f3368443dba9ef3a596ae0e7d":{
+      "scriptId":"u4"},
+    "7a782a0189294ef9a3c7d9a32d449e0e":{
+      "scriptId":"u5"},
+    "2a8dbd73cf204128a21f8b4502c35069":{
+      "scriptId":"u6"},
+    "5f9cc0b55ed345feb2dfc6d320db9e74":{
+      "scriptId":"u7"},
+    "d73fb8446efe45ac8d84a29ac436b851":{
+      "scriptId":"u8"},
+    "57c0b26e493e40b9853b9b0845acd3b8":{
+      "scriptId":"u9"},
+    "6ace3ccb905543c089b331f71faedebf":{
+      "scriptId":"u10"}}});

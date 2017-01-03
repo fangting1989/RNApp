@@ -1,0 +1,179 @@
+﻿$axure.loadCurrentPage({
+  "url":"定位完成.html",
+  "generationDate":new Date(1479886956366.12),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"7f209bbf2ed5493a9e7a60394da87413",
+    "type":"Axure:Page",
+    "name":"定位完成",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"f90381edffde407489e736e445d1f3d7",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":319,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"30c3b2733d33442a92533ce269dc5c81",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":319,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/定位完成/u0.png"}},
+{
+          "id":"77bbd5f3ead04ee5aa5b8be5e5da52d2",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":508},
+            "size":{
+              "width":300,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 移库物料",
+                      "target":{
+                        "targetType":"page",
+                        "url":"移库物料.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"ceba80f463cf4ad3a28287ef38600ed3",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":115,
+              "y":22},
+            "size":{
+              "width":91,
+              "height":30},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6175e85e8b2749c4b99634ea012817d0",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":115,
+                  "y":22},
+                "size":{
+                  "width":91,
+                  "height":30},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/定位完成/u3.png"}},
+{
+          "id":"73f8d654ee27482d89a02046a79c9152",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Negreta', 'Arial'",
+            "fontSize":"15px",
+            "fontWeight":"700",
+            "location":{
+              "x":129,
+              "y":31},
+            "size":{
+              "width":61,
+              "height":17}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3c01b01dd8a9441e84b617ad8040a075",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Negreta', 'Arial'",
+                "fontSize":"15px",
+                "fontWeight":"700",
+                "location":{
+                  "x":129,
+                  "y":31},
+                "size":{
+                  "width":61,
+                  "height":17}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "f90381edffde407489e736e445d1f3d7":{
+      "scriptId":"u0"},
+    "30c3b2733d33442a92533ce269dc5c81":{
+      "scriptId":"u1"},
+    "77bbd5f3ead04ee5aa5b8be5e5da52d2":{
+      "scriptId":"u2"},
+    "ceba80f463cf4ad3a28287ef38600ed3":{
+      "scriptId":"u3"},
+    "6175e85e8b2749c4b99634ea012817d0":{
+      "scriptId":"u4"},
+    "73f8d654ee27482d89a02046a79c9152":{
+      "scriptId":"u5"},
+    "3c01b01dd8a9441e84b617ad8040a075":{
+      "scriptId":"u6"}}});

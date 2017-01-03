@@ -1,0 +1,97 @@
+﻿$axure.loadCurrentPage({
+  "url":"历史报损.html",
+  "generationDate":new Date(1482148484556.91),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"4b68664cf5fa40ee9ddad50c638e4186",
+    "type":"Axure:Page",
+    "name":"历史报损",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"fea34f6ff42d4e3e96f489de572678ed",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1024,
+              "height":768}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"107a2ec99c8c48c9ab1cee4f28e49b8a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1024,
+                  "height":768}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/历史报损/u0.png"}},
+{
+          "id":"93f85c15d9f04c97ae939a8d30333373",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":870,
+              "y":160},
+            "size":{
+              "width":60,
+              "height":430}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 查看备注",
+                      "target":{
+                        "targetType":"page",
+                        "url":"查看备注.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "fea34f6ff42d4e3e96f489de572678ed":{
+      "scriptId":"u0"},
+    "107a2ec99c8c48c9ab1cee4f28e49b8a":{
+      "scriptId":"u1"},
+    "93f85c15d9f04c97ae939a8d30333373":{
+      "scriptId":"u2"}}});

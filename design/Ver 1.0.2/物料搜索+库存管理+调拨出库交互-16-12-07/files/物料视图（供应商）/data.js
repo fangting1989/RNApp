@@ -1,0 +1,167 @@
+﻿$axure.loadCurrentPage({
+  "url":"物料视图（供应商）.html",
+  "generationDate":new Date(1481113302547.4),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"71425fdcd36842a2b24a91f1611d42f6",
+    "type":"Axure:Page",
+    "name":"物料视图（供应商）",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"b0fc06c3e6d0453bb5b9f04858846ad6",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1920,
+              "height":1080}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6c3f8bcccbb64160aae941c9be7a688a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1920,
+                  "height":1080}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/物料视图（供应商）/u0.png"}},
+{
+          "id":"51c9001fc78f468385e16ef987c34d3b",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":490,
+              "y":140},
+            "size":{
+              "width":270,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 链接",
+                      "target":{
+                        "targetType":"page",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"5ef7b6ccf64a4ef0a941258c4771c07d",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":500,
+              "y":220},
+            "size":{
+              "width":100,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 物料视图（当前库存）",
+                      "target":{
+                        "targetType":"page",
+                        "url":"物料视图（当前库存）.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"e9d6487c09874391a3a899779334ce92",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":850,
+              "y":950},
+            "size":{
+              "width":290,
+              "height":100},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c75778b5c37b4521a407113cabd76013",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":850,
+                  "y":950},
+                "size":{
+                  "width":290,
+                  "height":100},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/物料视图（当前库存）/u6.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "b0fc06c3e6d0453bb5b9f04858846ad6":{
+      "scriptId":"u0"},
+    "6c3f8bcccbb64160aae941c9be7a688a":{
+      "scriptId":"u1"},
+    "51c9001fc78f468385e16ef987c34d3b":{
+      "scriptId":"u2"},
+    "5ef7b6ccf64a4ef0a941258c4771c07d":{
+      "scriptId":"u3"},
+    "e9d6487c09874391a3a899779334ce92":{
+      "scriptId":"u4"},
+    "c75778b5c37b4521a407113cabd76013":{
+      "scriptId":"u5"}}});

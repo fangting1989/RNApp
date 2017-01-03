@@ -1,0 +1,161 @@
+﻿$axure.loadCurrentPage({
+  "url":"选择盘点类型.html",
+  "generationDate":new Date(1479461008008.57),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"0582f89d7556410d89d88c64c202e469",
+    "type":"Axure:Page",
+    "name":"选择盘点类型",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"a9ab8523bdf94812a2b424652a06aa6f",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1021,
+              "height":768}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b78886b93b8241dcbab8d8365653cf52",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1021,
+                  "height":768}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/选择盘点类型/u0.png"}},
+{
+          "id":"8fd0fe2d05e94428b3cd765bf231d14f",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":150,
+              "y":230},
+            "size":{
+              "width":410,
+              "height":250}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 盘点列表（重点、动碰、全盘）",
+                      "target":{
+                        "targetType":"page",
+                        "url":"盘点列表（重点、动碰、全盘）.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"62e8ada7fb5e4c7f9fa302b71b4da702",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":790,
+              "y":230},
+            "size":{
+              "width":200,
+              "height":250}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 盘点列表（重点、动碰、全盘）",
+                      "target":{
+                        "targetType":"page",
+                        "url":"盘点列表（重点、动碰、全盘）.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"47b0a7e55ad14162a943546c2274969f",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":580,
+              "y":230},
+            "size":{
+              "width":190,
+              "height":250}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 自选盘点列表",
+                      "target":{
+                        "targetType":"page",
+                        "url":"自选盘点列表.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "a9ab8523bdf94812a2b424652a06aa6f":{
+      "scriptId":"u0"},
+    "b78886b93b8241dcbab8d8365653cf52":{
+      "scriptId":"u1"},
+    "8fd0fe2d05e94428b3cd765bf231d14f":{
+      "scriptId":"u2"},
+    "62e8ada7fb5e4c7f9fa302b71b4da702":{
+      "scriptId":"u3"},
+    "47b0a7e55ad14162a943546c2274969f":{
+      "scriptId":"u4"}}});

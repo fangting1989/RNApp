@@ -1,0 +1,129 @@
+﻿$axure.loadCurrentPage({
+  "url":"已标记不装箱物料.html",
+  "generationDate":new Date(1479886957110.52),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"75b174fd7d9048e680c542a2851be278",
+    "type":"Axure:Page",
+    "name":"已标记不装箱物料",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"a099b24b41014722bbf64b8948ebbef8",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":319,
+              "height":567}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"086cc432f9e5495c9473aa1cae30c3e2",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":319,
+                  "height":567}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/已标记不装箱物料/u0.png"}},
+{
+          "id":"3211d96b4dce44a4bfc59202e0311b3d",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":509},
+            "size":{
+              "width":300,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 选择标记不装箱物料",
+                      "target":{
+                        "targetType":"page",
+                        "url":"选择标记不装箱物料.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"ecf5dd89ce014b3785654918dd61214b",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":247,
+              "y":22},
+            "size":{
+              "width":70,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 发货清单",
+                      "target":{
+                        "targetType":"page",
+                        "url":"发货清单.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "a099b24b41014722bbf64b8948ebbef8":{
+      "scriptId":"u0"},
+    "086cc432f9e5495c9473aa1cae30c3e2":{
+      "scriptId":"u1"},
+    "3211d96b4dce44a4bfc59202e0311b3d":{
+      "scriptId":"u2"},
+    "ecf5dd89ce014b3785654918dd61214b":{
+      "scriptId":"u3"}}});

@@ -1,0 +1,97 @@
+﻿$axure.loadCurrentPage({
+  "url":"选择补货到货日期.html",
+  "generationDate":new Date(1479295313714.37),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"9bebba36cbcf43439dafda3935b046ee",
+    "type":"Axure:Page",
+    "name":"选择补货到货日期",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"d84f391a60d14efa8b3f34b4f9e038c5",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1023,
+              "height":768}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f9a0b171e080449b85a4de72d978b2f9",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1023,
+                  "height":768}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/选择补货到货日期/u0.png"}},
+{
+          "id":"96cbfb52926d47339dc49630d8d9b632",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":480,
+              "y":690},
+            "size":{
+              "width":190,
+              "height":70}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 确认补货内容",
+                      "target":{
+                        "targetType":"page",
+                        "url":"确认补货内容.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "d84f391a60d14efa8b3f34b4f9e038c5":{
+      "scriptId":"u0"},
+    "f9a0b171e080449b85a4de72d978b2f9":{
+      "scriptId":"u1"},
+    "96cbfb52926d47339dc49630d8d9b632":{
+      "scriptId":"u2"}}});

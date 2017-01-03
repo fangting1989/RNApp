@@ -1,0 +1,97 @@
+﻿$axure.loadCurrentPage({
+  "url":"订货详情.html",
+  "generationDate":new Date(1479295313841.99),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"cf66570ff44c4f958377abaa32403916",
+    "type":"Axure:Page",
+    "name":"订货详情",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"58869dc350964bca9cdbd94b60d1b327",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1022,
+              "height":768}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"30197cf0f4ba487d920ea4a28f513a20",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1022,
+                  "height":768}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/订货详情/u0.png"}},
+{
+          "id":"b0abaa9a96cc4592a16040ffbacf96e6",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":130,
+              "y":10},
+            "size":{
+              "width":50,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 订货单列表",
+                      "target":{
+                        "targetType":"page",
+                        "url":"订货单列表.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "58869dc350964bca9cdbd94b60d1b327":{
+      "scriptId":"u0"},
+    "30197cf0f4ba487d920ea4a28f513a20":{
+      "scriptId":"u1"},
+    "b0abaa9a96cc4592a16040ffbacf96e6":{
+      "scriptId":"u2"}}});

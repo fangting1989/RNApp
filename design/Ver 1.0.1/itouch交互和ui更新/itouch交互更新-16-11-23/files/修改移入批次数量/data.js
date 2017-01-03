@@ -1,0 +1,129 @@
+﻿$axure.loadCurrentPage({
+  "url":"修改移入批次数量.html",
+  "generationDate":new Date(1479886956489.23),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"806a894ac4c74212ae7a3d194184e8f5",
+    "type":"Axure:Page",
+    "name":"修改移入批次数量",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"1e00c82f31f94b3982ac880a9b2c997d",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":318,
+              "height":566}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c4e63cbe7248441b84e69fde8c80eb80",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":318,
+                  "height":566}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/修改移入批次数量/u0.png"}},
+{
+          "id":"19fb23082d144096bb9f351146bd1376",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":90,
+              "y":258},
+            "size":{
+              "width":140,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 关联新批次条码",
+                      "target":{
+                        "targetType":"page",
+                        "url":"关联新批次条码.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"6f92d9a246c14da78b14f79a75ee3394",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":280,
+              "y":50},
+            "size":{
+              "width":38,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 移库物料",
+                      "target":{
+                        "targetType":"page",
+                        "url":"移库物料.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "1e00c82f31f94b3982ac880a9b2c997d":{
+      "scriptId":"u0"},
+    "c4e63cbe7248441b84e69fde8c80eb80":{
+      "scriptId":"u1"},
+    "19fb23082d144096bb9f351146bd1376":{
+      "scriptId":"u2"},
+    "6f92d9a246c14da78b14f79a75ee3394":{
+      "scriptId":"u3"}}});

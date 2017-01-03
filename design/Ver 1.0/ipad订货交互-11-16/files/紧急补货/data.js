@@ -1,0 +1,129 @@
+﻿$axure.loadCurrentPage({
+  "url":"紧急补货.html",
+  "generationDate":new Date(1479295313646.81),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"f0137c339d5644a8a4e64d9ce689dcb1",
+    "type":"Axure:Page",
+    "name":"紧急补货",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"01ff9a2a692f4623bc2a6dc0808b9a11",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1021,
+              "height":764}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f383ad9dd6454c3f980746ebf2448c82",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1021,
+                  "height":764}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/紧急补货/u0.png"}},
+{
+          "id":"d955e13a1d0f40c988e4b780d591b3a2",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":470,
+              "y":700},
+            "size":{
+              "width":190,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 选择补货到货日期",
+                      "target":{
+                        "targetType":"page",
+                        "url":"选择补货到货日期.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"edba3572056f4441a4c94e60d00b9821",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":200,
+              "y":80},
+            "size":{
+              "width":140,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 紧急补货打开菜单筛选",
+                      "target":{
+                        "targetType":"page",
+                        "url":"紧急补货打开菜单筛选.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "01ff9a2a692f4623bc2a6dc0808b9a11":{
+      "scriptId":"u0"},
+    "f383ad9dd6454c3f980746ebf2448c82":{
+      "scriptId":"u1"},
+    "d955e13a1d0f40c988e4b780d591b3a2":{
+      "scriptId":"u2"},
+    "edba3572056f4441a4c94e60d00b9821":{
+      "scriptId":"u3"}}});

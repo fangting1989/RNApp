@@ -1,0 +1,97 @@
+﻿$axure.loadCurrentPage({
+  "url":"拒单详情.html",
+  "generationDate":new Date(1479461008351.9),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"0d4b7da23baf49548fb2586193845518",
+    "type":"Axure:Page",
+    "name":"拒单详情",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"fdc67651e2d4443f81c10bae7b7d93cb",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1022,
+              "height":766}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"89ef377eddea41caab9e465c17be949d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1022,
+                  "height":766}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/拒单详情/u0.png"}},
+{
+          "id":"6d74713f7b5d497aa3a34e3f591de7db",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":486,
+              "y":700},
+            "size":{
+              "width":174,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 已完成入库单",
+                      "target":{
+                        "targetType":"page",
+                        "url":"已完成入库单.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "fdc67651e2d4443f81c10bae7b7d93cb":{
+      "scriptId":"u0"},
+    "89ef377eddea41caab9e465c17be949d":{
+      "scriptId":"u1"},
+    "6d74713f7b5d497aa3a34e3f591de7db":{
+      "scriptId":"u2"}}});

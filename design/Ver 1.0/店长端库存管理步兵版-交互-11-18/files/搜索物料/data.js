@@ -1,0 +1,65 @@
+﻿$axure.loadCurrentPage({
+  "url":"搜索物料.html",
+  "generationDate":new Date(1479461008223.77),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"854cb8d387674099ad573a5da29e5e8b",
+    "type":"Axure:Page",
+    "name":"搜索物料",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"ef23f7a04a804b5bae1ca0b2e8367bc3",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1024,
+              "height":769}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"edd6bf00db59472eab4e14431d4364c6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1024,
+                  "height":769}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/搜索物料/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "ef23f7a04a804b5bae1ca0b2e8367bc3":{
+      "scriptId":"u0"},
+    "edd6bf00db59472eab4e14431d4364c6":{
+      "scriptId":"u1"}}});

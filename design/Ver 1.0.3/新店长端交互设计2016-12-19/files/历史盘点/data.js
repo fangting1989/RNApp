@@ -1,0 +1,97 @@
+﻿$axure.loadCurrentPage({
+  "url":"历史盘点.html",
+  "generationDate":new Date(1482148484939.28),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"ba1f3c5165bb4086bc91f067f6dad0d7",
+    "type":"Axure:Page",
+    "name":"历史盘点",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"a6a8ba9a6141454bb129147849eb3b59",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1051,
+              "height":810}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"5047038fbab1469f9571f773a547bcc4",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1051,
+                  "height":810}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/历史盘点/u0.png"}},
+{
+          "id":"6326784090074f79844cc6095921483c",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":476,
+              "y":130},
+            "size":{
+              "width":100,
+              "height":160}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 日期筛选",
+                      "target":{
+                        "targetType":"page",
+                        "url":"日期筛选.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "a6a8ba9a6141454bb129147849eb3b59":{
+      "scriptId":"u0"},
+    "5047038fbab1469f9571f773a547bcc4":{
+      "scriptId":"u1"},
+    "6326784090074f79844cc6095921483c":{
+      "scriptId":"u2"}}});

@@ -1,0 +1,129 @@
+﻿$axure.loadCurrentPage({
+  "url":"关联新批次条码.html",
+  "generationDate":new Date(1479886956597.84),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"78ba23e97bf448f29d4f5b02b7a1ed94",
+    "type":"Axure:Page",
+    "name":"关联新批次条码",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"c34e4789f877442788420dffca58abc0",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":567}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e40b6c061fc84c71899c3ba9e77e49c4",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":567}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/关联新批次条码/u0.png"}},
+{
+          "id":"846afed5deae4f6c918c2a5f8e825c3d",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":14.5},
+            "size":{
+              "width":80,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 移库物料",
+                      "target":{
+                        "targetType":"page",
+                        "url":"移库物料.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"ad62b4f90c6f4aa381c2e0d824ce9574",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":508},
+            "size":{
+              "width":300,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 定位完成",
+                      "target":{
+                        "targetType":"page",
+                        "url":"定位完成.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "c34e4789f877442788420dffca58abc0":{
+      "scriptId":"u0"},
+    "e40b6c061fc84c71899c3ba9e77e49c4":{
+      "scriptId":"u1"},
+    "846afed5deae4f6c918c2a5f8e825c3d":{
+      "scriptId":"u2"},
+    "ad62b4f90c6f4aa381c2e0d824ce9574":{
+      "scriptId":"u3"}}});

@@ -1,0 +1,129 @@
+﻿$axure.loadCurrentPage({
+  "url":"盘点首页.html",
+  "generationDate":new Date(1479461007942.51),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"a18c140985054990826f64ce1efaef48",
+    "type":"Axure:Page",
+    "name":"盘点首页",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"a6b9a2f43f164285bebf3e940a5730db",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1023,
+              "height":768}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6087209e840c4b71a165bc81326cc957",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1023,
+                  "height":768}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/盘点首页/u0.png"}},
+{
+          "id":"8beb8384e1224f5e9ad325bdc353b6a4",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":140,
+              "y":170},
+            "size":{
+              "width":870,
+              "height":520}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 查看盘点详情",
+                      "target":{
+                        "targetType":"page",
+                        "url":"查看盘点详情.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"ba36a81068a645e6a9de85a133c7d9c6",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":480,
+              "y":700},
+            "size":{
+              "width":180,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 选择盘点类型",
+                      "target":{
+                        "targetType":"page",
+                        "url":"选择盘点类型.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "a6b9a2f43f164285bebf3e940a5730db":{
+      "scriptId":"u0"},
+    "6087209e840c4b71a165bc81326cc957":{
+      "scriptId":"u1"},
+    "8beb8384e1224f5e9ad325bdc353b6a4":{
+      "scriptId":"u2"},
+    "ba36a81068a645e6a9de85a133c7d9c6":{
+      "scriptId":"u3"}}});

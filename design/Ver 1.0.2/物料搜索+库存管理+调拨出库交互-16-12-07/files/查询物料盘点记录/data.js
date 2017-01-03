@@ -1,0 +1,129 @@
+﻿$axure.loadCurrentPage({
+  "url":"查询物料盘点记录.html",
+  "generationDate":new Date(1481113302601.93),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"9a543615b9d14b729bf3f1bf0aad7bf8",
+    "type":"Axure:Page",
+    "name":"查询物料盘点记录",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"89034447678f4be79a60a1437ee622cc",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1920,
+              "height":1080}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6fa4d14b36f9469c863335a10d3eccdc",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1920,
+                  "height":1080}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/查询物料盘点记录/u0.png"}},
+{
+          "id":"0da3e8cbf5894cad952294a985d51cba",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":1420,
+              "y":430},
+            "size":{
+              "width":60,
+              "height":120}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 查看备注",
+                      "target":{
+                        "targetType":"page",
+                        "url":"查看备注.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"25f4003ee386417bab654e529a238e04",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":1420,
+              "y":550},
+            "size":{
+              "width":60,
+              "height":420}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 添加备注",
+                      "target":{
+                        "targetType":"page",
+                        "url":"添加备注.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "89034447678f4be79a60a1437ee622cc":{
+      "scriptId":"u0"},
+    "6fa4d14b36f9469c863335a10d3eccdc":{
+      "scriptId":"u1"},
+    "0da3e8cbf5894cad952294a985d51cba":{
+      "scriptId":"u2"},
+    "25f4003ee386417bab654e529a238e04":{
+      "scriptId":"u3"}}});

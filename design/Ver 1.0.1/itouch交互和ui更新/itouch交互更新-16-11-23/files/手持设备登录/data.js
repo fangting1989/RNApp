@@ -1,0 +1,97 @@
+﻿$axure.loadCurrentPage({
+  "url":"手持设备登录.html",
+  "generationDate":new Date(1479886955863.14),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"bf8e9bd214fc47ff95e9159bde71088d",
+    "type":"Axure:Page",
+    "name":"手持设备登录",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"ac83044c3cf14ceabb507a1af0b82b97",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":319,
+              "height":567}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e7ee2667bd674586abfc5c8234273c8c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":319,
+                  "height":567}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/手持设备登录/u0.png"}},
+{
+          "id":"59f77409177d4d52bed99c0fbf76dd56",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":210},
+            "size":{
+              "width":300,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 品牌和仓库选择",
+                      "target":{
+                        "targetType":"page",
+                        "url":"品牌和仓库选择.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "ac83044c3cf14ceabb507a1af0b82b97":{
+      "scriptId":"u0"},
+    "e7ee2667bd674586abfc5c8234273c8c":{
+      "scriptId":"u1"},
+    "59f77409177d4d52bed99c0fbf76dd56":{
+      "scriptId":"u2"}}});

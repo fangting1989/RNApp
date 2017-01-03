@@ -1,0 +1,97 @@
+﻿$axure.loadCurrentPage({
+  "url":"输入数量.html",
+  "generationDate":new Date(1479461007872.94),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"78aca592f4de48969e6eea850cb0d8d6",
+    "type":"Axure:Page",
+    "name":"输入数量",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"9f10870ae32a46ccb9ef5d69f4d60310",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1023,
+              "height":770}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"55d6030fc31c4ec5afd45fa69f02486b",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1023,
+                  "height":770}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/输入数量/u0.png"}},
+{
+          "id":"8258d5ea645c47868fd995de9cde45fc",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":880,
+              "y":700},
+            "size":{
+              "width":143,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 物料列表",
+                      "target":{
+                        "targetType":"page",
+                        "url":"物料列表.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "9f10870ae32a46ccb9ef5d69f4d60310":{
+      "scriptId":"u0"},
+    "55d6030fc31c4ec5afd45fa69f02486b":{
+      "scriptId":"u1"},
+    "8258d5ea645c47868fd995de9cde45fc":{
+      "scriptId":"u2"}}});

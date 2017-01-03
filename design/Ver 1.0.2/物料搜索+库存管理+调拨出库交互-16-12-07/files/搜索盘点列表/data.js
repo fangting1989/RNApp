@@ -1,0 +1,65 @@
+﻿$axure.loadCurrentPage({
+  "url":"搜索盘点列表.html",
+  "generationDate":new Date(1481113302727.85),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"118f6151e26a496ea898f14bee61f3eb",
+    "type":"Axure:Page",
+    "name":"搜索盘点列表",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"563b0affc8c24fcaa04e76659f93896a",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e8e898b741cb45e59248ac304f375aaa",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/搜索盘点列表/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "563b0affc8c24fcaa04e76659f93896a":{
+      "scriptId":"u0"},
+    "e8e898b741cb45e59248ac304f375aaa":{
+      "scriptId":"u1"}}});

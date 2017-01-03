@@ -1,0 +1,65 @@
+﻿$axure.loadCurrentPage({
+  "url":"修改入库数量.html",
+  "generationDate":new Date(1479461008457.5),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"4e77c5c2814c45ac88c49c8559b4d284",
+    "type":"Axure:Page",
+    "name":"修改入库数量",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"5ab7da13832444c88286767aea5c1f2b",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1026,
+              "height":769}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"406051afa08e4366a9e10a39eac4b41e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1026,
+                  "height":769}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/修改入库数量/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "5ab7da13832444c88286767aea5c1f2b":{
+      "scriptId":"u0"},
+    "406051afa08e4366a9e10a39eac4b41e":{
+      "scriptId":"u1"}}});

@@ -1,0 +1,193 @@
+﻿$axure.loadCurrentPage({
+  "url":"首页订单已生成.html",
+  "generationDate":new Date(1482148484009.39),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"0f76e52915624e688e23a6313b8bd5be",
+    "type":"Axure:Page",
+    "name":"首页订单已生成",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"b47b480bb5df446ebcf1c4a7aa4ecb5c",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1024,
+              "height":768}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"7822a512c9304c328b8121803991429a",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1024,
+                  "height":768}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/首页订单已生成/u0.png"}},
+{
+          "id":"cc3fefdfc64b46d5b50a9b59a038b70e",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":691,
+              "y":200},
+            "size":{
+              "width":320,
+              "height":130}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 订货",
+                      "target":{
+                        "targetType":"page",
+                        "url":"订货.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"4c2c7b8084c14be7aa81a3a35aa63515",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":780,
+              "y":550},
+            "size":{
+              "width":140,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 报损报废",
+                      "target":{
+                        "targetType":"page",
+                        "url":"报损报废.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"9a5efb64fb5844588cf5d63aaae65f9e",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":549,
+              "y":267},
+            "size":{
+              "width":90,
+              "height":440}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 入库",
+                      "target":{
+                        "targetType":"page",
+                        "url":"入库.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"0b5a880e4c6347c1ab0c96dabed800c2",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":700,
+              "y":380},
+            "size":{
+              "width":300,
+              "height":160}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 历史报损",
+                      "target":{
+                        "targetType":"page",
+                        "url":"历史报损.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "b47b480bb5df446ebcf1c4a7aa4ecb5c":{
+      "scriptId":"u0"},
+    "7822a512c9304c328b8121803991429a":{
+      "scriptId":"u1"},
+    "cc3fefdfc64b46d5b50a9b59a038b70e":{
+      "scriptId":"u2"},
+    "4c2c7b8084c14be7aa81a3a35aa63515":{
+      "scriptId":"u3"},
+    "9a5efb64fb5844588cf5d63aaae65f9e":{
+      "scriptId":"u4"},
+    "0b5a880e4c6347c1ab0c96dabed800c2":{
+      "scriptId":"u5"}}});

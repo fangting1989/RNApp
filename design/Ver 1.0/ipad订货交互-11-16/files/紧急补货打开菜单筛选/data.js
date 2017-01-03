@@ -1,0 +1,97 @@
+﻿$axure.loadCurrentPage({
+  "url":"紧急补货打开菜单筛选.html",
+  "generationDate":new Date(1479295313680.85),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"4b3dccc70b9345389ffe9455f79c5b96",
+    "type":"Axure:Page",
+    "name":"紧急补货打开菜单筛选",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"9d10325724c14020b727696997953b8b",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1022,
+              "height":766}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"425eff1e95274c15a7382f170a34d4ed",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1022,
+                  "height":766}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/紧急补货打开菜单筛选/u0.png"}},
+{
+          "id":"eb12a4270caf4e3ba5e4cfbb70bd3eff",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":20,
+              "y":10},
+            "size":{
+              "width":1002,
+              "height":756}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 紧急补货",
+                      "target":{
+                        "targetType":"page",
+                        "url":"紧急补货.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "9d10325724c14020b727696997953b8b":{
+      "scriptId":"u0"},
+    "425eff1e95274c15a7382f170a34d4ed":{
+      "scriptId":"u1"},
+    "eb12a4270caf4e3ba5e4cfbb70bd3eff":{
+      "scriptId":"u2"}}});

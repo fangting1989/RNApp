@@ -1,0 +1,166 @@
+﻿$axure.loadCurrentPage({
+  "url":"上架_移库.html",
+  "generationDate":new Date(1479886956324.58),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"96b695fbb8df49c49ef54a8a1b1ef467",
+    "type":"Axure:Page",
+    "name":"上架/移库",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"4602804a6c0341a485be1e8038851e37",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":567}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d471635c2f3e4fae8987630ac288bd98",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":567}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/上架_移库/u0.png"}},
+{
+          "id":"4ffd0cdbd34b4afe8cd94ad5f83a29a5",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":508},
+            "size":{
+              "width":300,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 定位完成",
+                      "target":{
+                        "targetType":"page",
+                        "url":"定位完成.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"5299228cbc2243e1841c4db1c073b580",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":8,
+              "y":24.5},
+            "size":{
+              "width":64,
+              "height":31}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"cc93dc7ca7ff4e6e8f06a51106769da1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":8,
+                  "y":24.5},
+                "size":{
+                  "width":64,
+                  "height":31}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/上架_移库/u3.png"}},
+{
+          "id":"97f1ac793f4b4b11aa9abc85951c4238",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":20},
+            "size":{
+              "width":80,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 登录后入口页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"登录后入口页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "4602804a6c0341a485be1e8038851e37":{
+      "scriptId":"u0"},
+    "d471635c2f3e4fae8987630ac288bd98":{
+      "scriptId":"u1"},
+    "4ffd0cdbd34b4afe8cd94ad5f83a29a5":{
+      "scriptId":"u2"},
+    "5299228cbc2243e1841c4db1c073b580":{
+      "scriptId":"u3"},
+    "cc93dc7ca7ff4e6e8f06a51106769da1":{
+      "scriptId":"u4"},
+    "97f1ac793f4b4b11aa9abc85951c4238":{
+      "scriptId":"u5"}}});

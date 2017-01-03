@@ -1,0 +1,129 @@
+﻿$axure.loadCurrentPage({
+  "url":"盘点结果.html",
+  "generationDate":new Date(1479461008116.17),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"52b6944123754e71ad3d5a8082866219",
+    "type":"Axure:Page",
+    "name":"盘点结果",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"ed3a1d3ee53e4ce0a81792d1fcb3f4d7",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1023,
+              "height":769}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"498638f613c44fb48eb997827a5a6a38",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1023,
+                  "height":769}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/盘点结果/u0.png"}},
+{
+          "id":"f0717ae45bf24d5fb6b9037d1536cbcf",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":390,
+              "y":700},
+            "size":{
+              "width":80,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 盘点列表（重点、动碰、全盘）",
+                      "target":{
+                        "targetType":"page",
+                        "url":"盘点列表（重点、动碰、全盘）.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"1fe2ae1ea12047f9b991388d352e048b",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":488,
+              "y":700},
+            "size":{
+              "width":172,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 盘点结果保存",
+                      "target":{
+                        "targetType":"page",
+                        "url":"盘点结果保存.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "ed3a1d3ee53e4ce0a81792d1fcb3f4d7":{
+      "scriptId":"u0"},
+    "498638f613c44fb48eb997827a5a6a38":{
+      "scriptId":"u1"},
+    "f0717ae45bf24d5fb6b9037d1536cbcf":{
+      "scriptId":"u2"},
+    "1fe2ae1ea12047f9b991388d352e048b":{
+      "scriptId":"u3"}}});

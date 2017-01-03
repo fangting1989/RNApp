@@ -1,0 +1,97 @@
+﻿$axure.loadCurrentPage({
+  "url":"正常完成本区拣货.html",
+  "generationDate":new Date(1479886956931.35),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"41e894efa0ca4720a7679d6609bde872",
+    "type":"Axure:Page",
+    "name":"正常完成本区拣货",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"547b346c6af14afebaa72e5528d18043",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":321,
+              "height":568}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"898033194d6d443c8c9e828fd53b18d9",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":321,
+                  "height":568}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/正常完成本区拣货/u0.png"}},
+{
+          "id":"3bb5ee2f097442e1be994f73b7ac8b9d",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":508},
+            "size":{
+              "width":300,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 分拣库区列表",
+                      "target":{
+                        "targetType":"page",
+                        "url":"分拣库区列表.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "547b346c6af14afebaa72e5528d18043":{
+      "scriptId":"u0"},
+    "898033194d6d443c8c9e828fd53b18d9":{
+      "scriptId":"u1"},
+    "3bb5ee2f097442e1be994f73b7ac8b9d":{
+      "scriptId":"u2"}}});

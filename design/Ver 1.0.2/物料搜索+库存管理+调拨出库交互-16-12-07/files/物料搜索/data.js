@@ -1,0 +1,97 @@
+﻿$axure.loadCurrentPage({
+  "url":"物料搜索.html",
+  "generationDate":new Date(1481113302441.8),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"40e31cb2ee364dd8b3f3532ba933cd41",
+    "type":"Axure:Page",
+    "name":"物料搜索",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"d40b693dd75f489080bbc9eb117e7832",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1920,
+              "height":1080}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c7a65f3e4f12463cabdca7f2abbb08be",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1920,
+                  "height":1080}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/物料搜索/u0.png"}},
+{
+          "id":"015489e8868d4d53ba0402c1f266ef1f",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":550,
+              "y":310},
+            "size":{
+              "width":870,
+              "height":120}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 物料视图（当前库存）",
+                      "target":{
+                        "targetType":"page",
+                        "url":"物料视图（当前库存）.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "d40b693dd75f489080bbc9eb117e7832":{
+      "scriptId":"u0"},
+    "c7a65f3e4f12463cabdca7f2abbb08be":{
+      "scriptId":"u1"},
+    "015489e8868d4d53ba0402c1f266ef1f":{
+      "scriptId":"u2"}}});

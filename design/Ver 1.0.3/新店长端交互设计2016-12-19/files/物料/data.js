@@ -1,0 +1,200 @@
+﻿$axure.loadCurrentPage({
+  "url":"物料.html",
+  "generationDate":new Date(1482148484430.81),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"3d499147c8fb442db3be349df325d2cb",
+    "type":"Axure:Page",
+    "name":"物料",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"31112b16d2834a598b24c232bda44a47",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1024,
+              "height":768}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"9c1ee17b756a4f71aa4ee4d26e16b12d",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1024,
+                  "height":768}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/物料/u0.png"}},
+{
+          "id":"797def21aeae4d1e91439f199acc74e9",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":761,
+              "y":5},
+            "size":{
+              "width":80,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 历史报损",
+                      "target":{
+                        "targetType":"page",
+                        "url":"历史报损.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"621bfa6b2de74311a205220bb19430b0",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":791,
+              "y":420},
+            "size":{
+              "width":79,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 更多员工",
+                      "target":{
+                        "targetType":"page",
+                        "url":"更多员工.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"ea32d0e40e1645d7821eca76c4c1ac40",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":420,
+              "y":700},
+            "size":{
+              "width":180,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 报损报废",
+                      "target":{
+                        "targetType":"page",
+                        "url":"报损报废.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"3994e95d2b3640a8a4906b4be850b6a1",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":840,
+              "y":620},
+            "size":{
+              "width":100,
+              "height":50},
+            "linePattern":"none"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"788603905e074b75bbfafcae468beabb",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":840,
+                  "y":620},
+                "size":{
+                  "width":100,
+                  "height":50},
+                "linePattern":"none"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/餐品/u5.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "31112b16d2834a598b24c232bda44a47":{
+      "scriptId":"u0"},
+    "9c1ee17b756a4f71aa4ee4d26e16b12d":{
+      "scriptId":"u1"},
+    "797def21aeae4d1e91439f199acc74e9":{
+      "scriptId":"u2"},
+    "621bfa6b2de74311a205220bb19430b0":{
+      "scriptId":"u3"},
+    "ea32d0e40e1645d7821eca76c4c1ac40":{
+      "scriptId":"u4"},
+    "3994e95d2b3640a8a4906b4be850b6a1":{
+      "scriptId":"u5"},
+    "788603905e074b75bbfafcae468beabb":{
+      "scriptId":"u6"}}});

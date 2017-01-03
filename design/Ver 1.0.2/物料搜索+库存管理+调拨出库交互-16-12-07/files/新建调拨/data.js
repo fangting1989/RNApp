@@ -1,0 +1,65 @@
+﻿$axure.loadCurrentPage({
+  "url":"新建调拨.html",
+  "generationDate":new Date(1481113302824.74),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"a79f313715a2426b9c5078754593d458",
+    "type":"Axure:Page",
+    "name":"新建调拨",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"9c5a4ce08ae14daf906dfb4ab9241a25",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1920,
+              "height":1080}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"52ba862d4f5f4c4b856d9a005c518503",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1920,
+                  "height":1080}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/新建调拨/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "9c5a4ce08ae14daf906dfb4ab9241a25":{
+      "scriptId":"u0"},
+    "52ba862d4f5f4c4b856d9a005c518503":{
+      "scriptId":"u1"}}});

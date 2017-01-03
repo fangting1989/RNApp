@@ -1,0 +1,65 @@
+﻿$axure.loadCurrentPage({
+  "url":"新建退货.html",
+  "generationDate":new Date(1481113302852.41),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"3fada6a7a5764b35b5f2e6ad295da5b9",
+    "type":"Axure:Page",
+    "name":"新建退货",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"87fba204d6634e439e65701e61772f79",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1920,
+              "height":1080}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f9f6b99aef6841f1a3632874d4c114e9",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1920,
+                  "height":1080}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/新建退货/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "87fba204d6634e439e65701e61772f79":{
+      "scriptId":"u0"},
+    "f9f6b99aef6841f1a3632874d4c114e9":{
+      "scriptId":"u1"}}});

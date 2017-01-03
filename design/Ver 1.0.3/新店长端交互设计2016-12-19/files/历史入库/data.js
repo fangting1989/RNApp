@@ -1,0 +1,65 @@
+﻿$axure.loadCurrentPage({
+  "url":"历史入库.html",
+  "generationDate":new Date(1482148484739.6),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"bc5c220be5844208800792062a88bb1a",
+    "type":"Axure:Page",
+    "name":"历史入库",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"2d035850ac6f4eb2b5f46fbbcb1819c2",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1024,
+              "height":768}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f299174f4fc24ec9916c01017c18ebae",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1024,
+                  "height":768}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/历史入库/u0.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "2d035850ac6f4eb2b5f46fbbcb1819c2":{
+      "scriptId":"u0"},
+    "f299174f4fc24ec9916c01017c18ebae":{
+      "scriptId":"u1"}}});

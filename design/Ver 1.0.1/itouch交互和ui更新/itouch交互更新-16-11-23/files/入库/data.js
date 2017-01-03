@@ -1,0 +1,129 @@
+﻿$axure.loadCurrentPage({
+  "url":"入库.html",
+  "generationDate":new Date(1479886956073.34),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"a56f3165bede43e0a2e2034ba9f52720",
+    "type":"Axure:Page",
+    "name":"入库",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"d1f5c76987da46e5a60f4d6af91fb42a",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":320,
+              "height":570}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e41fd3b227ba4b20a7b43f450f3391a5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":320,
+                  "height":570}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/入库/u0.png"}},
+{
+          "id":"2d1a753e4c1b41f69d569fdafca4df76",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":80},
+            "size":{
+              "width":300,
+              "height":450}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 开始入库",
+                      "target":{
+                        "targetType":"page",
+                        "url":"开始入库.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"da2200158a6845969fb55aba1c8e5e6f",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":20},
+            "size":{
+              "width":80,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 登录后入口页",
+                      "target":{
+                        "targetType":"page",
+                        "url":"登录后入口页.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "d1f5c76987da46e5a60f4d6af91fb42a":{
+      "scriptId":"u0"},
+    "e41fd3b227ba4b20a7b43f450f3391a5":{
+      "scriptId":"u1"},
+    "2d1a753e4c1b41f69d569fdafca4df76":{
+      "scriptId":"u2"},
+    "da2200158a6845969fb55aba1c8e5e6f":{
+      "scriptId":"u3"}}});

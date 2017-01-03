@@ -1,0 +1,105 @@
+﻿$axure.loadCurrentPage({
+  "url":"查看备注.html",
+  "generationDate":new Date(1481113302631.4),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"7a7954632e5d46038f8eb001c26d535b",
+    "type":"Axure:Page",
+    "name":"查看备注",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"584630d2587a406381430c824a92f751",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1920,
+              "height":1080}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d713d07b87874e249f57c2c63916738f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1920,
+                  "height":1080}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/查看备注/u0.png"}},
+{
+          "id":"c9c3fdb26f9746b59946da89b4a567de",
+          "label":"",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":820,
+              "y":650},
+            "size":{
+              "width":280,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 添加备注",
+                      "target":{
+                        "targetType":"page",
+                        "url":"添加备注.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"d643fc68085241a98c39d1b689bc8332",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[]}]}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "584630d2587a406381430c824a92f751":{
+      "scriptId":"u0"},
+    "d713d07b87874e249f57c2c63916738f":{
+      "scriptId":"u1"},
+    "c9c3fdb26f9746b59946da89b4a567de":{
+      "scriptId":"u2"}}});

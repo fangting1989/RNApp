@@ -1,0 +1,129 @@
+﻿$axure.loadCurrentPage({
+  "url":"新建菜单.html",
+  "generationDate":new Date(1481113302795.25),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"1f3a91e60c0641dd95e0fcf940629e46",
+    "type":"Axure:Page",
+    "name":"新建菜单",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"54cfa9aaf04d45e6ba7d9e760fa59f12",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1920,
+              "height":1080}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8240095c8ef746e98a31db22d83f9fd7",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1920,
+                  "height":1080}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/新建菜单/u0.png"}},
+{
+          "id":"5a91ed0ccb3a40abb483ed38fde425ef",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":1540,
+              "y":970},
+            "size":{
+              "width":80,
+              "height":90}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 新建调拨",
+                      "target":{
+                        "targetType":"page",
+                        "url":"新建调拨.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"fcfd6a592c8e497082572411ac7f55af",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":1680,
+              "y":970},
+            "size":{
+              "width":100,
+              "height":90}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 新建退货",
+                      "target":{
+                        "targetType":"page",
+                        "url":"新建退货.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "54cfa9aaf04d45e6ba7d9e760fa59f12":{
+      "scriptId":"u0"},
+    "8240095c8ef746e98a31db22d83f9fd7":{
+      "scriptId":"u1"},
+    "5a91ed0ccb3a40abb483ed38fde425ef":{
+      "scriptId":"u2"},
+    "fcfd6a592c8e497082572411ac7f55af":{
+      "scriptId":"u3"}}});

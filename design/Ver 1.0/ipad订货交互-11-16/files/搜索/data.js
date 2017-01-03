@@ -1,0 +1,65 @@
+﻿$axure.loadCurrentPage({
+  "url":"搜索.html",
+  "generationDate":new Date(1479295313617.28),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"c19dcc292abc41bbbbbe2e6f79e2033a",
+    "type":"Axure:Page",
+    "name":"搜索",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"afe882183098419289b53bd60fbd5806",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1022,
+              "height":769}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0a99a61bc9624f9da748c46eb0198e8e",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1022,
+                  "height":769}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/搜索/u0.jpg"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "afe882183098419289b53bd60fbd5806":{
+      "scriptId":"u0"},
+    "0a99a61bc9624f9da748c46eb0198e8e":{
+      "scriptId":"u1"}}});

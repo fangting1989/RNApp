@@ -1,0 +1,97 @@
+﻿$axure.loadCurrentPage({
+  "url":"筛选.html",
+  "generationDate":new Date(1479461008556.59),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"8b78bc7effcf4b618a1b2594d9bbab0b",
+    "type":"Axure:Page",
+    "name":"筛选",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"a82e23f2a4224065ae943ebc1fc4e3b4",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1023,
+              "height":767}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e64ad8daeee34c2a986f99768d6b4408",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1023,
+                  "height":767}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/筛选/u0.png"}},
+{
+          "id":"afbf5e2b9d574eb4860f9cabc4d68e6e",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":930,
+              "y":10},
+            "size":{
+              "width":93,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 已完成入库单",
+                      "target":{
+                        "targetType":"page",
+                        "url":"已完成入库单.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "a82e23f2a4224065ae943ebc1fc4e3b4":{
+      "scriptId":"u0"},
+    "e64ad8daeee34c2a986f99768d6b4408":{
+      "scriptId":"u1"},
+    "afbf5e2b9d574eb4860f9cabc4d68e6e":{
+      "scriptId":"u2"}}});

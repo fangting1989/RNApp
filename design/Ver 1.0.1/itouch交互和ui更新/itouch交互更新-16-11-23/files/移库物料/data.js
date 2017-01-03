@@ -1,0 +1,243 @@
+﻿$axure.loadCurrentPage({
+  "url":"移库物料.html",
+  "generationDate":new Date(1479886956433.18),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"8ce45aa0c3bb43e9b0f331ec7cb1df2f",
+    "type":"Axure:Page",
+    "name":"移库物料",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"02dfe7df8b2746b9a7c1a9b040d244fb",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":321,
+              "height":569}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"19bb979117424b3dbad8132f77a8fe39",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":321,
+                  "height":569}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/移库物料/u0.png"}},
+{
+          "id":"c496b5b843534aadac15aa3404ee0c47",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":508},
+            "size":{
+              "width":300,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 上架物料",
+                      "target":{
+                        "targetType":"page",
+                        "url":"上架物料.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"63e792ee7dfd4978aeec27c9dfb6b52b",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":230,
+              "y":230},
+            "size":{
+              "width":80,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 修改移入批次数量",
+                      "target":{
+                        "targetType":"page",
+                        "url":"修改移入批次数量.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"e9354574e95a4c65aa4c8293c2ad9486",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":115,
+              "y":22},
+            "size":{
+              "width":91,
+              "height":30},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"35059eab844a4530b3392da0036d90ab",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":115,
+                  "y":22},
+                "size":{
+                  "width":91,
+                  "height":30},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/定位完成/u3.png"}},
+{
+          "id":"b2876d3b9c594325805f50e86c04450f",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Negreta', 'Arial'",
+            "fontSize":"15px",
+            "fontWeight":"700",
+            "location":{
+              "x":129,
+              "y":31},
+            "size":{
+              "width":61,
+              "height":17}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d07c96d3cc74455882fd427cbcd7d495",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Negreta', 'Arial'",
+                "fontSize":"15px",
+                "fontWeight":"700",
+                "location":{
+                  "x":129,
+                  "y":31},
+                "size":{
+                  "width":61,
+                  "height":17}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"bb2eb92bfcd24874869bd311e2b8ada6",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":14.5},
+            "size":{
+              "width":80,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 定位完成",
+                      "target":{
+                        "targetType":"page",
+                        "url":"定位完成.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "02dfe7df8b2746b9a7c1a9b040d244fb":{
+      "scriptId":"u0"},
+    "19bb979117424b3dbad8132f77a8fe39":{
+      "scriptId":"u1"},
+    "c496b5b843534aadac15aa3404ee0c47":{
+      "scriptId":"u2"},
+    "63e792ee7dfd4978aeec27c9dfb6b52b":{
+      "scriptId":"u3"},
+    "e9354574e95a4c65aa4c8293c2ad9486":{
+      "scriptId":"u4"},
+    "35059eab844a4530b3392da0036d90ab":{
+      "scriptId":"u5"},
+    "b2876d3b9c594325805f50e86c04450f":{
+      "scriptId":"u6"},
+    "d07c96d3cc74455882fd427cbcd7d495":{
+      "scriptId":"u7"},
+    "bb2eb92bfcd24874869bd311e2b8ada6":{
+      "scriptId":"u8"}}});

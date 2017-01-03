@@ -1,0 +1,225 @@
+﻿$axure.loadCurrentPage({
+  "url":"负一屏.html",
+  "generationDate":new Date(1482148484076.97),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"8e7125adfe6345d5aa9c79b71957b473",
+    "type":"Axure:Page",
+    "name":"负一屏",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"0ed8c358c99e4f39922d5152ed41b03d",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1024,
+              "height":768}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"4c43863a9b9941f2b44702f5eda4df61",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1024,
+                  "height":768}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/负一屏/u0.png"}},
+{
+          "id":"a36d791a0cbd442f8aa71891c1ce88c9",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":61,
+              "y":280},
+            "size":{
+              "width":100,
+              "height":130}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 订货",
+                      "target":{
+                        "targetType":"page",
+                        "url":"订货.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"8a84c676b3784ae2b444bd2029540372",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":421,
+              "y":280},
+            "size":{
+              "width":100,
+              "height":130}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 报损报废",
+                      "target":{
+                        "targetType":"page",
+                        "url":"报损报废.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"7cce953cc26849d3abcd8eccca3d3737",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":181,
+              "y":280},
+            "size":{
+              "width":100,
+              "height":130}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 入库",
+                      "target":{
+                        "targetType":"page",
+                        "url":"入库.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"ef3bbf19bb7d494e9994d7e7997d04f8",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":301,
+              "y":280},
+            "size":{
+              "width":100,
+              "height":130}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 盘点",
+                      "target":{
+                        "targetType":"page",
+                        "url":"盘点.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"da4f69f4027045c3acc0609e6472a9bf",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":541,
+              "y":280},
+            "size":{
+              "width":100,
+              "height":130}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 出库",
+                      "target":{
+                        "targetType":"page",
+                        "url":"出库.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "0ed8c358c99e4f39922d5152ed41b03d":{
+      "scriptId":"u0"},
+    "4c43863a9b9941f2b44702f5eda4df61":{
+      "scriptId":"u1"},
+    "a36d791a0cbd442f8aa71891c1ce88c9":{
+      "scriptId":"u2"},
+    "8a84c676b3784ae2b444bd2029540372":{
+      "scriptId":"u3"},
+    "7cce953cc26849d3abcd8eccca3d3737":{
+      "scriptId":"u4"},
+    "ef3bbf19bb7d494e9994d7e7997d04f8":{
+      "scriptId":"u5"},
+    "da4f69f4027045c3acc0609e6472a9bf":{
+      "scriptId":"u6"}}});

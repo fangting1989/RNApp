@@ -1,0 +1,97 @@
+﻿$axure.loadCurrentPage({
+  "url":"签收.html",
+  "generationDate":new Date(1479886955962.73),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"3fe11626e4524801aee980a14041d834",
+    "type":"Axure:Page",
+    "name":"签收",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"4f1b0c075d6e4efcabae3a1e748517d9",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":318,
+              "height":566}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"fd98aea0484142e3912537deb7b15ea9",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":318,
+                  "height":566}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/签收/u0.png"}},
+{
+          "id":"f57a0e866b584d10b2d1d55cf71e27ea",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":80},
+            "size":{
+              "width":318,
+              "height":450}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 货单物料列表",
+                      "target":{
+                        "targetType":"page",
+                        "url":"货单物料列表.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "4f1b0c075d6e4efcabae3a1e748517d9":{
+      "scriptId":"u0"},
+    "fd98aea0484142e3912537deb7b15ea9":{
+      "scriptId":"u1"},
+    "f57a0e866b584d10b2d1d55cf71e27ea":{
+      "scriptId":"u2"}}});

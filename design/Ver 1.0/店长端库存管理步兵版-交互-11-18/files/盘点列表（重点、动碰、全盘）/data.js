@@ -1,0 +1,129 @@
+﻿$axure.loadCurrentPage({
+  "url":"盘点列表（重点、动碰、全盘）.html",
+  "generationDate":new Date(1479461008045.61),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"6b53885c6a7e4d98bccda143dc6a011e",
+    "type":"Axure:Page",
+    "name":"盘点列表（重点、动碰、全盘）",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"1977e38e9fd94e7bb2c986575b9cd755",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1023,
+              "height":769}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"89952feb97064dd9b1f83a8f67cf3ae8",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1023,
+                  "height":769}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/盘点列表（重点、动碰、全盘）/u0.png"}},
+{
+          "id":"83b14f7062c14704ac11825a08ffc027",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":860,
+              "y":120},
+            "size":{
+              "width":90,
+              "height":560}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 输入数量",
+                      "target":{
+                        "targetType":"page",
+                        "url":"输入数量_1.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"fabcdf0e37ed43b0a217f2aeb8e144ff",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":486,
+              "y":700},
+            "size":{
+              "width":174,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 盘点结果",
+                      "target":{
+                        "targetType":"page",
+                        "url":"盘点结果.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "1977e38e9fd94e7bb2c986575b9cd755":{
+      "scriptId":"u0"},
+    "89952feb97064dd9b1f83a8f67cf3ae8":{
+      "scriptId":"u1"},
+    "83b14f7062c14704ac11825a08ffc027":{
+      "scriptId":"u2"},
+    "fabcdf0e37ed43b0a217f2aeb8e144ff":{
+      "scriptId":"u3"}}});

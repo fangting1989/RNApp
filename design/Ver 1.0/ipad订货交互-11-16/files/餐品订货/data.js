@@ -1,0 +1,224 @@
+﻿$axure.loadCurrentPage({
+  "url":"餐品订货.html",
+  "generationDate":new Date(1479295313414.6),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"ee394ec5254440bd93f94f7e4fd2400f",
+    "type":"Axure:Page",
+    "name":"餐品订货",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"76550ba315ec4b7aafd83d05eb258f9a",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1024,
+              "height":769}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ff26b486902f4faeb425a0b9d267fe37",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1024,
+                  "height":769}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/餐品订货/u0.png"}},
+{
+          "id":"5c9c9ab5e13e4deca860ff30f15755f8",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":320,
+              "y":280},
+            "size":{
+              "width":80,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 物资订货",
+                      "target":{
+                        "targetType":"page",
+                        "url":"物资订货.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"3eba18c0a7924ba58ccd93561a863471",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":220,
+              "y":350},
+            "size":{
+              "width":110,
+              "height":30}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 餐品分类筛选",
+                      "target":{
+                        "targetType":"page",
+                        "url":"餐品分类筛选.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"ca3a0da0c353427e94a4c3183ebca599",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":940,
+              "y":690},
+            "size":{
+              "width":80,
+              "height":70}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 链接",
+                      "target":{
+                        "targetType":"page",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"1ec5c56d0bd44930b5d9c9091b1ff40f",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":730,
+              "y":90},
+            "size":{
+              "width":270,
+              "height":150}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 紧急补货",
+                      "target":{
+                        "targetType":"page",
+                        "url":"紧急补货.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"8b09ce7319fa4581bcb762a443e7a213",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":930,
+              "y":10},
+            "size":{
+              "width":80,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 订货单列表",
+                      "target":{
+                        "targetType":"page",
+                        "url":"订货单列表.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "76550ba315ec4b7aafd83d05eb258f9a":{
+      "scriptId":"u0"},
+    "ff26b486902f4faeb425a0b9d267fe37":{
+      "scriptId":"u1"},
+    "5c9c9ab5e13e4deca860ff30f15755f8":{
+      "scriptId":"u2"},
+    "3eba18c0a7924ba58ccd93561a863471":{
+      "scriptId":"u3"},
+    "ca3a0da0c353427e94a4c3183ebca599":{
+      "scriptId":"u4"},
+    "1ec5c56d0bd44930b5d9c9091b1ff40f":{
+      "scriptId":"u5"},
+    "8b09ce7319fa4581bcb762a443e7a213":{
+      "scriptId":"u6"}}});

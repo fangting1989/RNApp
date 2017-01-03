@@ -1,0 +1,161 @@
+﻿$axure.loadCurrentPage({
+  "url":"待入库详情.html",
+  "generationDate":new Date(1479461008418.96),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"7deaabe9ff7648d98fdba2be870f7db3",
+    "type":"Axure:Page",
+    "name":"待入库详情",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"baeb93d08b584c969870544a2351e5ec",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1021,
+              "height":767}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c9c25e19f4e44ed994f2b4647c63e7c2",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1021,
+                  "height":767}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/待入库详情/u0.png"}},
+{
+          "id":"22b3bd287c654b40afcc331fa3c10975",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":800,
+              "y":200},
+            "size":{
+              "width":100,
+              "height":470}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 修改入库数量",
+                      "target":{
+                        "targetType":"page",
+                        "url":"修改入库数量.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"fc8cb1f65a35479b9c688917e8f8096d",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":910,
+              "y":100},
+            "size":{
+              "width":80,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 单证详情",
+                      "target":{
+                        "targetType":"page",
+                        "url":"单证详情.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"81748bf3a82f4cc3a7d530e5224cbc7f",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":486,
+              "y":700},
+            "size":{
+              "width":174,
+              "height":50}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 已完成入库单",
+                      "target":{
+                        "targetType":"page",
+                        "url":"已完成入库单.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "baeb93d08b584c969870544a2351e5ec":{
+      "scriptId":"u0"},
+    "c9c25e19f4e44ed994f2b4647c63e7c2":{
+      "scriptId":"u1"},
+    "22b3bd287c654b40afcc331fa3c10975":{
+      "scriptId":"u2"},
+    "fc8cb1f65a35479b9c688917e8f8096d":{
+      "scriptId":"u3"},
+    "81748bf3a82f4cc3a7d530e5224cbc7f":{
+      "scriptId":"u4"}}});

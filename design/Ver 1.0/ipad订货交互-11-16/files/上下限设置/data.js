@@ -1,0 +1,129 @@
+﻿$axure.loadCurrentPage({
+  "url":"上下限设置.html",
+  "generationDate":new Date(1479295313582.74),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"5869f13f989646a7878e78af2beb8a7d",
+    "type":"Axure:Page",
+    "name":"上下限设置",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"a79e3b4b1cf84f019a1bebed312f1f5a",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1022,
+              "height":766}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8b292df1b1ea4490913f6ed2aebbf6ce",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1022,
+                  "height":766}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/上下限设置/u0.jpg"}},
+{
+          "id":"0268e77532da479b855b6adde76d75b6",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":470,
+              "y":510},
+            "size":{
+              "width":220,
+              "height":80}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 物资订货",
+                      "target":{
+                        "targetType":"page",
+                        "url":"物资订货.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"8e2c4aa565534b8e9cec5d398ec928cd",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":780,
+              "y":200},
+            "size":{
+              "width":50,
+              "height":40}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 物资订货",
+                      "target":{
+                        "targetType":"page",
+                        "url":"物资订货.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "a79e3b4b1cf84f019a1bebed312f1f5a":{
+      "scriptId":"u0"},
+    "8b292df1b1ea4490913f6ed2aebbf6ce":{
+      "scriptId":"u1"},
+    "0268e77532da479b855b6adde76d75b6":{
+      "scriptId":"u2"},
+    "8e2c4aa565534b8e9cec5d398ec928cd":{
+      "scriptId":"u3"}}});

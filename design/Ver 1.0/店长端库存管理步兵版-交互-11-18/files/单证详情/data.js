@@ -1,0 +1,97 @@
+﻿$axure.loadCurrentPage({
+  "url":"单证详情.html",
+  "generationDate":new Date(1479461008480.02),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"974c4098b9234edf96f6ce85a09e37af",
+    "type":"Axure:Page",
+    "name":"单证详情",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"6c7c0424d22b41bf907f636329ae5ee8",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1022,
+              "height":768}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"dc1fb46365d346a981f942abc235df8f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1022,
+                  "height":768}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/单证详情/u0.png"}},
+{
+          "id":"0fddbb87c4134a1c88155c3384815347",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":0},
+            "size":{
+              "width":1012,
+              "height":760}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 待入库详情",
+                      "target":{
+                        "targetType":"page",
+                        "url":"待入库详情.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "6c7c0424d22b41bf907f636329ae5ee8":{
+      "scriptId":"u0"},
+    "dc1fb46365d346a981f942abc235df8f":{
+      "scriptId":"u1"},
+    "0fddbb87c4134a1c88155c3384815347":{
+      "scriptId":"u2"}}});

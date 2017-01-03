@@ -1,0 +1,129 @@
+﻿$axure.loadCurrentPage({
+  "url":"仓库管理首页.html",
+  "generationDate":new Date(1481113302404.85),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"4c89198c096541c3a736effe8b92f830",
+    "type":"Axure:Page",
+    "name":"仓库管理首页",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"a2ec195313684446a2134f7c75f1e0e7",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1920,
+              "height":1080}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"ff0fe0700b7e4c66823334254dc0bcef",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1920,
+                  "height":1080}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/仓库管理首页/u0.png"}},
+{
+          "id":"3206604cfa434a7b9eddea19f7e229f0",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":540,
+              "y":250},
+            "size":{
+              "width":890,
+              "height":60}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 物料搜索",
+                      "target":{
+                        "targetType":"page",
+                        "url":"物料搜索.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true},
+{
+          "id":"a045a6409edc4ece8451a3519a9d7515",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":990,
+              "y":600},
+            "size":{
+              "width":440,
+              "height":250}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 盘点结果",
+                      "target":{
+                        "targetType":"page",
+                        "url":"盘点结果.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "a2ec195313684446a2134f7c75f1e0e7":{
+      "scriptId":"u0"},
+    "ff0fe0700b7e4c66823334254dc0bcef":{
+      "scriptId":"u1"},
+    "3206604cfa434a7b9eddea19f7e229f0":{
+      "scriptId":"u2"},
+    "a045a6409edc4ece8451a3519a9d7515":{
+      "scriptId":"u3"}}});

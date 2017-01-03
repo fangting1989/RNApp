@@ -1,0 +1,97 @@
+﻿$axure.loadCurrentPage({
+  "url":"调拨_退货出库.html",
+  "generationDate":new Date(1481113302768.28),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"ab370ff6490640b3aca53aaa2e77a48a",
+    "type":"Axure:Page",
+    "name":"调拨/退货出库",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"0f7b6b71b6174a3bb25e686ff80ab861",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "size":{
+              "width":1920,
+              "height":1080}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"3c5a78395a9141f1ab1ec721f5a6a6b1",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "size":{
+                  "width":1920,
+                  "height":1080}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/调拨_退货出库/u0.png"}},
+{
+          "id":"74b10a4353eb4617b82f1909a0da15c4",
+          "label":"",
+          "type":"imageMapRegion",
+          "styleType":"imageMapRegion",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":1810,
+              "y":960},
+            "size":{
+              "width":90,
+              "height":80}},
+          "adaptiveStyles":{
+},
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 新建菜单",
+                      "target":{
+                        "targetType":"page",
+                        "url":"新建菜单.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "0f7b6b71b6174a3bb25e686ff80ab861":{
+      "scriptId":"u0"},
+    "3c5a78395a9141f1ab1ec721f5a6a6b1":{
+      "scriptId":"u1"},
+    "74b10a4353eb4617b82f1909a0da15c4":{
+      "scriptId":"u2"}}});
